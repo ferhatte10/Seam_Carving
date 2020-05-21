@@ -6,6 +6,11 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 public class SeamCarving{
+  public static final String ANSI_RESET = "\u001B[0m";
+  public static final String ANSI_WHITE = "\u001B[37m";
+  public static final String ANSI_GREEN_BACKGROUND = "\u001B[42m";
+
+
 
     public static void main(String[] args) throws Exception {
         String output_file = "Resized_pucture_" ;
@@ -35,6 +40,8 @@ public class SeamCarving{
         File pngOriginal = new File(input_file); //on charge l'image original du dossier image
         File pngResized = new File(output_file + output_width +"x"+ output_height +"_"+ args[1] +"%_"+ args[2]+"%_" + ".jpg"); //on crée temp la nouvelle image avec le nom demandé
         resizeImage(pngOriginal,pngResized,output_width,output_height, "jpg"); // appel a la methode resizeImage pour traiter l'image
+        System.out.println("\n\t"+ANSI_GREEN_BACKGROUND + ANSI_WHITE + "The picture has been resized with succes !" + ANSI_RESET +"\n");
+
 
 
     }
