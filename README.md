@@ -26,7 +26,7 @@ java -cp ./out SeamCarving input.jpg  50 50
 ![Test input](./test/cat.jpg)
 
 ### Test Output (768x1080)
-![Test output](./test/cat_pucture_resized_768x1080_20%_50%_.jpg)
+![Test output](./test/cat_pucture_resized_768x1080.jpg)
 
 ### Test Output (1920x432)
-![Test output](./test/cat_pucture_resized_1920x432_50%_20%_.jpg)
+![Test output](./test/cat_pucture_resized_1920x432.jpg)
