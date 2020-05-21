@@ -33,9 +33,9 @@ public class SeamCarving{
 
 
         File pngOriginal = new File(input_file); //on charge l'image original du dossier image
-        File pngResized = new File(output_file + output_width +"x"+ output_height +"( "+ args[1] +"% "+ args[2]+"% "+")"+ ".jpg"); //on crée temp la nouvelle image avec le nom demandé
+        File pngResized = new File(output_file + output_width +"x"+ output_height +"'"+ args[1] +"% "+ args[2]+"%"+"'"+ ".jpg"); //on crée temp la nouvelle image avec le nom demandé
         resizeImage(pngOriginal,pngResized,output_width,output_height, "jpg"); // appel a la methode resizeImage pour traiter l'image
-        System.out.println("/50e/Pictures_test/" + input_file);
+
 
     }
 
