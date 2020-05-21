@@ -14,7 +14,7 @@ This will create a folder called out which will keep the compiled .class files. 
 ```
 java -cp ./out SeamCarving [input image]  [width %] [height %]
 ```
-For example the following command will take the file "input.jpg" carve it down to 500x500 (1000x1000 the original size) and save it to "input_picture_resized_500x500(50% 50%).jpg":
+For example the following command will take the file "input.jpg" carve it down to 500x500 (1000x1000 the original size) and save it to "input_picture_resized_500x500'50% 50%'.jpg":
 
 ```
 java -cp ./out SeamCarving input.jpg  50 50
